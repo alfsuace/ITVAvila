@@ -2,6 +2,7 @@ package com.alfsuace.itvAvila.presentation;
 
 //import com.iesam.itvavila.demo.presentation.DemoMain;
 
+import com.alfsuace.itvAvila.data.VehicleDataStore;
 import com.alfsuace.itvAvila.domain.models.Car;
 import com.alfsuace.itvAvila.domain.models.Client;
 import com.alfsuace.itvAvila.domain.models.Inspeccion;
@@ -13,6 +14,9 @@ public class Main {
         //Aquí comienza el ejercicio. Revisa la carpeta demo para obtener ejemplos.
         //DemoMain demoMain = new DemoMain();
         //DemoMain.main();
+
+        VehicleDataStore dataStore = new VehicleDataStore();
+
 
         //Cliente (Propietario segun enunciado)
         Client cliente = new Client();
@@ -35,6 +39,7 @@ public class Main {
         camion.setMatricula("1203 abc");
         camion.setMatriculacion("10/10/2010");
         camion.setTruckId("1");
+        dataStore.guardar(camion);
 
         //Coche
         Car coche = new Car();
@@ -51,7 +56,7 @@ public class Main {
         inspeccion1.setInspeccionId("1");
         inspeccion1.setDate("15/12/2022");
         inspeccion1.setResult(true);
-        inspeccion1.setVehicle(camion);
+        inspeccion1.setVehicle(dataStore.buscar("1"));
         inspeccion1.setClient(cliente);
 
         //Inspeccion 2

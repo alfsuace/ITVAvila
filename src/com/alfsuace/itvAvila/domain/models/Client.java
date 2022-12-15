@@ -73,4 +73,9 @@ public class Client {
     public void setPhoneNum (String phoneNum) {
         this.phoneNum = phoneNum;
     }
+
+    //codigo redundante pero si no no funciona el datastore
+    public String getCodigo () {
+        return dni;
+    }
 }

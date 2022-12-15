@@ -1,14 +1,14 @@
-package com.iesam.itvavila.demo.presentation;
-
+//package com.iesam.itvavila.demo.presentation;
+package com.alfsuace.itvAvila.presentation;
 import com.alfsuace.itvAvila.domain.models.Vehicle;
-import com.iesam.itvavila.demo.domain.models.Demo;
-import com.iesam.itvavila.demo.domain.usecase.BuscarDemoUseCase;
-import com.iesam.itvavila.demo.domain.usecase.EliminarDemoUseCase;
+//import com.iesam.itvavila.demo.domain.models.Demo;
+//import com.iesam.itvavila.demo.domain.usecase.BuscarDemoUseCase;
+//import com.iesam.itvavila.demo.domain.usecase.EliminarDemoUseCase;
 
 public class DemoMain {
 
-    public static void main() {
-        Demo demo = new Demo();
+    public static void main () {
+     /*   Demo demo = new Demo();
         demo.setCodigo("1");
         demo.setNombre("Nombre1");
 
@@ -31,5 +31,6 @@ public class DemoMain {
         //-- 4. Elimino un modelo
         EliminarDemoUseCase eliminarDemoUseCase = new EliminarDemoUseCase();
         eliminarDemoUseCase.execute("1"); //Elimino el modelo con código 1.
+    }*/
     }
 }

@@ -1,7 +1,7 @@
 package com.alfsuace.itvAvila.domain.models;
 
 public interface Vehicle {
-
+    public String getCodigo();
     public String getMatricula();
     public String getMarca();
     public String getModelo();

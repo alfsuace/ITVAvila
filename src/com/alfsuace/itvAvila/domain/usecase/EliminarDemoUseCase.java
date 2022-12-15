@@ -1,10 +1,12 @@
-package com.iesam.itvavila.demo.domain.usecase;
+//package com.iesam.itvavila.demo.domain.usecase;
+package com.alfsuace.itvAvila.domain.usecase;
 
-import com.iesam.itvavila.demo.data.DemoDataStore;
-import com.iesam.itvavila.demo.domain.models.Demo;
+import com.alfsuace.itvAvila.data.VehicleDataStore;
+//import com.iesam.itvavila.demo.data.DemoDataStore;
+//import com.iesam.itvavila.demo.domain.models.Demo;
 
 public class EliminarDemoUseCase {
-    private DemoDataStore dataStore = DemoDataStore.getInstance();
+    private VehicleDataStore dataStore = VehicleDataStore.getInstance();
 
     public void execute(String codigo) {
         dataStore.eliminar(codigo);

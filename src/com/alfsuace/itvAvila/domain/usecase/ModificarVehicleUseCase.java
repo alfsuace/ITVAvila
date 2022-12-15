@@ -1,5 +1,5 @@
 //package com.iesam.itvavila.demo.domain.usecase;
-package com.alfsuace.itvAvila.domain.usecase.;
+package com.alfsuace.itvAvila.domain.usecase;
 
 //import com.iesam.itvavila.demo.data.DemoDataStore;
 //import com.iesam.itvavila.demo.domain.models.Demo;

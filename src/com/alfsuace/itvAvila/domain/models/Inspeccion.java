@@ -2,18 +2,18 @@ package com.alfsuace.itvAvila.domain.models;
 
 public class Inspeccion {
 
-    private String inspeccion;
+    private String inspeccionId;
     private String date;
     private Boolean result;
     private Vehicle vehicle;
     private Client client;
 
-    public String getInspeccion () {
-        return inspeccion;
+    public String getInspeccionId () {
+        return inspeccionId;
     }
 
-    public void setInspeccion (String inspeccion) {
-        this.inspeccion = inspeccion;
+    public void setInspeccionId (String inspeccionId) {
+        this.inspeccionId = inspeccionId;
     }
 
     public String getDate () {

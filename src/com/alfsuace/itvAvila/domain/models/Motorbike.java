@@ -11,6 +11,11 @@ public class Motorbike implements Vehicle{
     private String diamRueda;
 
     @Override
+    public String getCodigo () {
+        return motorbikeId;
+    }
+
+    @Override
     public String getMatricula () {
         return matricula;
     }
@@ -35,9 +40,6 @@ public class Motorbike implements Vehicle{
         return matriculacion;
     }
 
-    public String getMotorbikeId () {
-        return motorbikeId;
-    }
 
     public void setMotorbikeId (String motorbikeId) {
         this.motorbikeId = motorbikeId;

@@ -13,6 +13,11 @@ public class Truck implements Vehicle {
 
 
     @Override
+    public String getCodigo () {
+        return truckId;
+    }
+
+    @Override
     public String getMatricula () {
         return matricula;
     }
@@ -37,9 +42,6 @@ public class Truck implements Vehicle {
         return matriculacion;
     }
 
-    public String getTruckId () {
-        return truckId;
-    }
 
     public void setTruckId (String truckId) {
         this.truckId = truckId;
